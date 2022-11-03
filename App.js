@@ -85,7 +85,11 @@ export default function App() {
             coordinate={{latitude: marker.lat,longitude: marker.lng}}
           />
         ))}
-
+{/*         <Marker 
+          key={1}
+          title="Testing"
+          coordinate={{latitude: lat,longitude: lng}}
+        /> */}
       </MapView>
     </View>
   );
